@@ -6,17 +6,35 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-    <section id="header">
-        <div class="container">
-            <img src="#" class="logo">
-        </div>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">CLIENT PORTFOLIO</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">CONTACT</a></li>
-
+        <section id="header">
+            <div class="container">
+                <img src="Img/LOGO.png" class="logo">
+                <div class="header-text">
+                    <h1>Bridging the Gap between B2B and B2C,<br>through Strategic Management and Planning</h1>
+                    <span class="square"></span>
+                    <p>"Empowering Growth: Your B2B and B2C Consultation Partner Unlock potential with expert consultation services from us. Tailored solutions for businesses and individuals, driving success in a dynamic world."</p>
+                    <button class="common-btn">Read More</button>    
+                </div>
+            </div>
     </section>
+
+        <div class="sidenav" id="mySidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CLIENT PORTFOLIO</a>
+            <a href="#">SERVICES</a>
+            <a href="#">CONTACT</a>
+        </div>
+
+        <div id="main">
+            <span class="openbtn" onclick="openNav()">&#9776; Menu</span>
+            <h1>Welcome to Our Website</h1>
+            <p>This is the content of the main section.</p>
+        </div>
+    
+        <script src="script.js"></script>
+    
 
     </body>
 </html>
